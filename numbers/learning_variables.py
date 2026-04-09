@@ -42,4 +42,3 @@ num_1, num_2 = divmod(number_7, number_8)
 # pow
 result_pow = 2 ** 2
 print(result_pow)
-
