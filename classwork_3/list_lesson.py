@@ -10,10 +10,10 @@ numbers = [1, 2, 3, 4]
 names = ['Anna', 'Oleg', 'Marina']
 mixed = [1, 'text', True, 3.14]
 #
-# print(numbers)
+# print(numbers_test)
 # print(names)
 # print(mixed)
-# print(type(numbers))
+# print(type(numbers_test))
 
 # Доступ до елементів
 
