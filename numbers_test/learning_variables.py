@@ -1,6 +1,6 @@
 """
 Lesson 2:
-- numbers
+- numbers_test
   - integer
   - float
 """
