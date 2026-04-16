@@ -24,5 +24,5 @@ if list_len % 2 == 0 and list_len > 1:
     result = [custom_list[:half], custom_list[half:]]
 else:
     result = [custom_list[:half + 1], custom_list[half + 1:]]
-print(result)
+
 
