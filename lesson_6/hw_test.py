@@ -51,28 +51,28 @@ assert_exception => True
 from string import punctuation, digits, ascii_uppercase
 from keyword import kwlist
 
-prohibited_symbols = punctuation.replace('_', ' ')
-
-user_var = input('Please enter variable name: ')
-
-is_keyword = user_var in kwlist
-is_start_with_digits =  user_var[0] in digits
-is_double_underline = '__' in user_var
-is_contain_uppercase = False
-is_contain_prohibited_symbols = False
-
-for char in user_var:
-    if char in prohibited_symbols:
-        is_contain_prohibited_symbols = True
-        continue
-    if char in ascii_uppercase:
-        is_contain_uppercase = True
-        continue
-
-
-
-is_var_valid = (not is_keyword and not is_contain_prohibited_symbols
-                and not is_start_with_digits and not is_double_underline and not is_contain_uppercase)
-
-print(f'Is your variable name \'{user_var}\' valid? {is_var_valid}')
+# prohibited_symbols = punctuation.replace('_', ' ')
+#
+# user_var = input('Please enter variable name: ')
+#
+# is_keyword = user_var in kwlist
+# is_start_with_digits =  user_var[0] in digits
+# is_double_underline = '__' in user_var
+# is_contain_uppercase = False
+# is_contain_prohibited_symbols = False
+#
+# for char in user_var:
+#     if char in prohibited_symbols:
+#         is_contain_prohibited_symbols = True
+#         continue
+#     if char in ascii_uppercase:
+#         is_contain_uppercase = True
+#         continue
+#
+#
+#
+# is_var_valid = (not is_keyword and not is_contain_prohibited_symbols
+#                 and not is_start_with_digits and not is_double_underline and not is_contain_uppercase)
+#
+# print(f'Is your variable name \'{user_var}\' valid? {is_var_valid}')
 
